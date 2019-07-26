@@ -4,7 +4,10 @@
 
 Below is the list of prerequisites to compile `komodo-ecosysboard` on your machine:
 
-- Golang 1.12.6 minimum
+- Golang 1.12.6 minimum (see https://golang.org/doc/install)
+
+Insall dependancies
+`sudo apt-get install build-essential`
 
 ## Getting Started
 
@@ -15,12 +18,12 @@ See deployment for notes on how to deploy the project on a live system.
 
 To build the project please follow the instructions below:
 
+
 ```bash
+cd ~
+git clone https://github.com/KomodoPlatform/komodo-ecosysboard
+cd komodo-ecosysboard
 go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
-
-#Or if you clone the repository in GOPATH:
-
-GO111MODULE=on go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
 ```
 
 ## Installing
@@ -33,10 +36,6 @@ To run the tests type the following instructions below:
 
 ```
 go test ./...
-
-Or if you clone the repository in GOPATH:
-
-GO111MODULE=on go test ./...
 ```
 
 ### Coverage
@@ -52,7 +51,7 @@ bash scripts/coverage.sh
 To run the program after building it type the following command:
 
 ```
-./komodo_ecosysboard -config_path esb_config.json -logs_path logs
+./komodo-ecosysboard -config_path esb_config.json -logs_path logs
 ```
 
 ## Deployment
