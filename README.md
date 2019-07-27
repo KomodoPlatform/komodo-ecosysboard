@@ -6,7 +6,7 @@ Below is the list of prerequisites to compile `komodo-ecosysboard` on your machi
 
 - Golang 1.12.6 minimum (see https://golang.org/doc/install)
 
-Insall dependancies
+Install dependencies
 `sudo apt-get install build-essential`
 
 ## Getting Started
