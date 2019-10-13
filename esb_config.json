@@ -301,6 +301,19 @@
       ]
     },
     {
+      "coin": "hush",
+      "coin_paprika_id": "hush-hush",
+      "coingecko_id": "hush",
+      "git": [
+        "MyHush",
+        "https://github.com/leto/hushlist.git",
+        "https://github.com/leto/hushgen.git",
+        "https://github.com/leto/p5-Hush.git",
+        "https://github.com/leto/Alien-Hush.git",
+        "https://github.com/leto/App-Hush.git",
+      ]
+    },
+    {
       "coin": "pgt",
       "coin_paprika_id": "pgt",
       "coingecko_id": "",
