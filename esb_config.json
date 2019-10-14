@@ -297,7 +297,17 @@
       "coin_paprika_id": "arrr-pirate",
       "coingecko_id": "pirate-chain",
       "git": [
-        "KomodoPlatform"
+        "PirateNetwork",
+        "https://github.com/MrMLynch/pirate.git",
+        "https://github.com/MrMLynch/PirateWalletManagement.git",
+        "https://github.com/MrMLynch/SevenSeasAndroid.git",
+        "https://github.com/MrMLynch/SevenSeasWormhole.git",
+        "https://github.com/MrMLynch/piratepaperwallet.git",
+        "https://github.com/MrMLynch/PirateOcean.git",
+        "https://github.com/TheComputerGenie/PirateOcean.git",
+        "https://github.com/TheComputerGenie/ARRR-solo-mining.git",
+        "https://github.com/radix42/SevenSeas.git",
+        "https://github.com/radix42/PirateOcean.git"
       ]
     },
     {
