@@ -386,6 +386,14 @@
       "git": [
         "KomodoPlatform"
       ]
+    },
+    {
+      "coin": "chips",
+      "coin_paprika_id": "chips-chips",
+      "coingecko_id": "chips",
+      "git": [
+        "https://github.com/chips-blockchain"
+      ]   
     }
   ],
   "git_repos_location": "/tmp/repos"
